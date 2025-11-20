@@ -16,7 +16,7 @@ export default function RedirectPage() {
         setCountdown((prev) => {
           if (prev === 1) {
             clearInterval(interval);
-            window.location.href = `https://electisec.com/${slug}`;
+            window.location.href = `https://yaudit.dev/${slug}`;
           }
           return prev - 1;
         });
